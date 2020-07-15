@@ -1,0 +1,70 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.innerContainer{
+display: flex;
+flex-direction: column;
+width: 40%;
+margin: 0 auto;
+padding: 20px;
+align-items: flex-start;
+border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputDiv{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:100%;
+    padding: 15px;
+    
+}
+
+.inputName{
+    display: flex;
+    align-items: flex-start;
+    width: 95%;
+}
+
+
+.inputPhoNum{
+    display: flex;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.inputDivRadio{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width:100%;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.divButton{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.button{
+    background-color: #0B79C4;
+    color: white;
+    height: 30px;
+    border-radius: 4px;
+}
